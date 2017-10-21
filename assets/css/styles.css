@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url('toronto-2741996_1920.jpg');
+  background-image: url('../img/toronto-2741996_1920.jpg');
   background-position: 50% 40%;
   text-align: center;
 }
@@ -12,7 +12,7 @@
 #head-background {
   background-color: rgba(255, 255, 255, 0.43);
   margin: 2% auto;
-  width: 18%;
+  width: 25%;
   padding: 15px;
 }
 
