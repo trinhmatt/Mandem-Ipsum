@@ -1,0 +1,35 @@
+.jumbotron {
+  background-image: url('toronto-2741996_1920.jpg');
+  background-position: 50% 40%;
+  text-align: center;
+}
+
+#display {
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+#head-background {
+  background-color: rgba(255, 255, 255, 0.43);
+  margin: 2% auto;
+  width: 18%;
+  padding: 15px;
+}
+
+.jumbotron {
+    padding-top: 48px;
+    height: 25em;
+}
+
+#get {
+  background-color: black;
+  outline: none;
+}
+
+#get:hover {
+  background-color: rgb(103,103,103)
+}
+
+#num-paragraphs {
+  outline: none;
+}
