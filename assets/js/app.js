@@ -1,5 +1,3 @@
-var paragraph = ''
-
 $(document).ready(function(){
   $('#get').on('click', function(){
     var numP = $('#num-paragraphs').val(),
