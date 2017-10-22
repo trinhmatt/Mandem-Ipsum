@@ -84,6 +84,6 @@ var slang = [
   'waddup ',
   'vex ',
   'watch your lip ',
-  'dawg '
+  'dawg ',
   'swing the '
 ]
