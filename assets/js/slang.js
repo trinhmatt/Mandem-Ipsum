@@ -72,5 +72,18 @@ var slang = [
   'send me ',
   'bredrin ',
   'my yute ',
-  'from my ends '
+  'from my ends ',
+  'scoop me ',
+  'copped ',
+  'bro ',
+  'out here ',
+  'drop a bill ',
+  'yeah eh ',
+  'slu ',
+  'scarbs ',
+  'waddup ',
+  'vex ',
+  'watch your lip ',
+  'dawg '
+  'swing the '
 ]
