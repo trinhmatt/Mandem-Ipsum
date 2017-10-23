@@ -16,7 +16,9 @@ $(document).ready(function(){
 })
 
 function random(){
-  return Math.floor(Math.random() * slang.length) + 0
+  var ranArray = Math.floor(Math.random() * slang.length) + 0,
+      ranIndex = Math.floor(Math.random() * 22) + 0
+  return [ranArray,ranIndex];
 }
 
 function generatePar(callback) {
@@ -32,15 +34,18 @@ function generatePar(callback) {
 
     //To generate individual sentences
     while (wordCount < numWOrds) {
-      var select = random();
+      var select = random()
+          selectArray = select[0],
+          selectNum = select[1];
 
       //To ensure proper grammer when a new sentence starts
       if (wordCount === 0 && paragraph !== '') {
-        var word = ' ' + capitalize(slang[select])
+        console.log(slang[selectArray][selectNum])
+        var word = ' ' + capitalize(slang[selectArray][selectNum])
       } else if (wordCount === 0 && paragraph === ''){
-        word = capitalize(slang[select])
+        word = capitalize(slang[selectArray][selectNum])
       } else {
-        word = slang[select]
+        word = slang[selectArray][selectNum]
       }
       sentence += word
       wordCount ++

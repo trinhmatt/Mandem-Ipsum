@@ -1,5 +1,7 @@
+//Nested array to make the words feel more random, function now picks random array and random index 
+
 var slang = [
-  'styll ',
+  ['styll ',
   'ahlie ',
   'link up ',
   'truu ',
@@ -20,8 +22,8 @@ var slang = [
   'gyaldem ',
   'sludem ',
   'sweetermans ',
-  'wheeling ',
-  'bean ',
+  'wheeling '],
+  ['bean ',
   'bare ',
   'cyattie ',
   'greezy ',
@@ -42,8 +44,8 @@ var slang = [
   'doggie ',
   'dukes ',
   'crib ',
-  'kush ',
-  'bless ',
+  'kush '],
+  ['bless ',
   'G ',
   'cheesed ',
   'extra ',
@@ -64,8 +66,8 @@ var slang = [
   'celly ',
   'tdot ',
   'goon ',
-  'head top ',
-  'been ',
+  'head top '],
+  ['been ',
   'jam ',
   'run up ',
   'tryna ',
@@ -85,5 +87,6 @@ var slang = [
   'vex ',
   'watch your lip ',
   'dawg ',
-  'swing the '
+  'swing the ',
+  'teefed the ']
 ]
