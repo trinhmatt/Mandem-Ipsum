@@ -40,7 +40,6 @@ function generatePar(callback) {
 
       //To ensure proper grammer when a new sentence starts
       if (wordCount === 0 && paragraph !== '') {
-        console.log(slang[selectArray][selectNum])
         var word = ' ' + capitalize(slang[selectArray][selectNum])
       } else if (wordCount === 0 && paragraph === ''){
         word = capitalize(slang[selectArray][selectNum])
